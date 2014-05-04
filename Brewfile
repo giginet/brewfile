@@ -4,7 +4,6 @@ brew tap caskroom/cask || true
 
 # CUI tools
 install zsh
-install vim
 install tmux
 install git
 install tig
@@ -14,6 +13,7 @@ install autojump
 install hub
 install jq
 install lua
+install vim --with-lua
 install android-ndk
 install android-sdk
 install rbenv
