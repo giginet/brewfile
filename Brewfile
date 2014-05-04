@@ -6,6 +6,7 @@ brew tap caskroom/cask || true
 install zsh
 install vim
 install tmux
+install git
 install tig
 install gibo
 install git-flow
@@ -57,5 +58,8 @@ cask install gimp
 cask install inkscape
 cask install audacity
 cask install unity3d
+
+cask alfred
+cask alfred link 
 
 cleanup
